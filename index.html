@@ -76,14 +76,38 @@
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form class="contact-form" onsubmit="return submitForm(event)">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+  <section id="contact" class="contact-wrapper">
+    <div class="contact-container">
+    
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p><strong>Email:</strong> <a href="mailto:info@silverthornsecurity.co.uk">info@silverthornsecurity.co.uk</a></p>
+        <p><strong>Phone:</strong> <a href="tel:02035762067">020 3576 2067</a></p>
+        <h3>Addresses</h3>
+        <p>
+          <strong>Crawley Office:</strong><br>
+          Metcalf Way,<br>
+          Crawley, RH11 7XX
+        </p>
+        <p>
+          <strong>High Wycombe Office:</strong><br>
+          Cressex Enterprise Centre,<br>
+          Cressex Business Park,<br>
+          Lincoln Road,<br>
+          High Wycombe, HP12 3RL<br>
+          United Kingdom
+        </p>
+      </div>
+
+      <form class="contact-form" onsubmit="return submitForm(event)">
+        <h2>Send Us a Message</h2>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+    </div>
   </section>
 
   <footer>
