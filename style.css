@@ -184,3 +184,13 @@ footer {
   line-height: 1.6;
 }
 
+.fade-in {
+  opacity: 0;
+  animation: fade 1.5s ease-in-out forwards;
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+  }
+}
